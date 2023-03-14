@@ -1,19 +1,19 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
+course_name: Computational Astrophysics Course
+course_description: "This MSc course aims at providing an introduction to high-performance computing using astrophysical phenonema as examples. The course is a mixture between actual class room lectures and hands-on coding exercises. It therefore is not only targetting the students from the astrophysics speciality of our MSc in Theoretical Physics, but rather of interest to all students."
 course_semester: "Fall 1998"
 
 baseurl: "/Computational_Astrophysics_Course" # the subpath of your site, e.g. /blog/
 url: "http://weiguangcui.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
-twitter_username: username 
+schoolname: "UAM"
+schoolurl: "https://uam.edu.es"
+twitter_username:  @cuiweiguang
 
-address: |
-    School of Witchcraft and Wizardry
-    Hogwarts
-    Scotland
+address: 01.15.SS.201 - Seminario Departamento Física Teórica.
+    Facultad de Ciencias, Universidad Autonoma de Madrid
+    Madrid
+    Spain
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X

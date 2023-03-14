@@ -1,19 +1,18 @@
 instructors:
-  - name: Albus Dumbledore
+  - name: Weiguang Cui (Module  M-8-315)
     profile_pic: /_images/pp/dumbledore.jpg
-    webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
-    profile_pic: /_images/pp/mcgonagall.jpg
+    webpage: https://weiguangcui.github.io/
+  - name: Violeta Gonzalez-Perez (Module  M-8-314)
+    profile_pic: /_images/pp/violeta.jpg
+    webpage: https://viogp.github.io/
+  - name: Gustavo Yepes (Module  M-8-307)
+    profile_pic: /_images/pp/gustavo.jpg
+    webpage: https://astro.ft.uam.es/gustavo/
+  - name: Daniel Ceverino Rodriguez
+    profile_pic: /_images/pp/daniel.jpg
+    webpage: https://astro.ft.uam.es/daniel/    
 
 teaching_assistants:
-  - name: Harry Potter
+  - name: To be named
     profile_pic: /_images/pp/potter.jpg
     webpage: https://en.wikipedia.org/wiki/Harry_Potter_(character)
-
-  - name: Hermione Granger
-    profile_pic: /_images/pp/granger.jpg
-    webpage: https://en.wikipedia.org/wiki/Hermione_Granger
-
-  - name: Ron Weasley
-    profile_pic: /_images/pp/weasley.jpg
-    webpage: https://en.wikipedia.org/wiki/Ron_Weasley
