@@ -1,16 +1,16 @@
 # Site settings
 course_name: Computational Astrophysics Course
 course_description: "This MSc course aims at providing an introduction to high-performance computing using astrophysical phenonema as examples. The course is a mixture between actual class room lectures and hands-on coding exercises. It therefore is not only targetting the students from the astrophysics speciality of our MSc in Theoretical Physics, but rather of interest to all students."
-course_semester: "Fall 1998"
+course_semester: "Spring 2023"
 
 baseurl: "/Computational_Astrophysics_Course" # the subpath of your site, e.g. /blog/
 url: "http://weiguangcui.github.io/" # the base hostname & protocol for your site
 
 schoolname: "UAM"
 schoolurl: "https://uam.edu.es"
-twitter_username:  @cuiweiguang
+twitter_username: cuiweiguang
 
-address: 01.15.SS.201 - Seminario Departamento Física Teórica.
+address: 01.15.SS.201 - Seminario Departamento Fisica Teorica.
     Facultad de Ciencias, Universidad Autonoma de Madrid
     Madrid
     Spain
