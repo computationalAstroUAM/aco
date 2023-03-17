@@ -52,10 +52,10 @@ collections:
 #       type: "assignments"
 #     values:
 #       layout: "assignment"
-      
+
 plugins:
   - jekyll-relative-links
-  
+
 relative_links:
   enabled:     true
   collections: false
