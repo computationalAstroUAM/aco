@@ -1,17 +1,14 @@
 ---
 type: lecture
-date: 2018-09-16T8:00:00+4:30
-title: Sample Lecture
-tldr: "Short text to discribe what this lecture is about."
-thumbnail: /static_files/presentations/lec.jpg
-links: 
-    - url: /static_files/presentations/lec.zip
-      name: notes
-    - url: /static_files/presentations/code.zip
-      name: codes
-    - url: https://google.com
+date: 2023-03-23T15:00:00
+title: 1. Information about the course
+tldr: "This contains some basic information of the course."
+# thumbnail: /static_files/presentations/lec.jpg
+links:
+    - url: /static_files/presentations/info_gral.pdf
       name: slides
 ---
-**Suggested Readings:**
-- [Readings 1](http://example.com)
-- [Readings 2](http://example.com)
+
+**Please contact me (weiguang.cui@uam.es) or Violeta (violeta.gonzalez@uam.es) for any questions**
+
+[Materials](../theory)
