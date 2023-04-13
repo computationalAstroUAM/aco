@@ -9,12 +9,14 @@
 
 [Array1D.c](./Array1D.c) -- dynamically allocate array
 
+[Array3D.c](./Array3D.c) -- dynamically allocate 3D array with time comparison, cache misses
+
 [pi.c](./pi.c)  -- calculation of PI with OpenMP
 
 
 To be finished...
          gravity1D.c           my.c                             utility.c
-Array3D.c          gravity1D-parallel.c  my.h                   read_mtree.c        utility.h
+          gravity1D-parallel.c  my.h                   read_mtree.c        utility.h
 C.c                          ParallelRecursion1D.c  stdint.c            valgrindtest.c
 foverflow.c        indexx.c                                 StructureArray.c
 FunctionPointer.c  IO.c                                Structure.c
