@@ -13,10 +13,12 @@
 
 [pi.c](./pi.c)  -- calculation of PI with OpenMP
 
+[utility.h](utility.h)  -- Useful functions
+[utility.c](utility.c)  -- Useful functions
 
 To be finished...
          gravity1D.c           my.c                             utility.c
-          gravity1D-parallel.c  my.h                   read_mtree.c        utility.h
+          gravity1D-parallel.c  my.h                   read_mtree.c      
 C.c                          ParallelRecursion1D.c  stdint.c            valgrindtest.c
 foverflow.c        indexx.c                                 StructureArray.c
 FunctionPointer.c  IO.c                                Structure.c
