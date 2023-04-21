@@ -13,7 +13,8 @@
 
 [Array3D.c](./Array3D.c) -- dynamically allocate 3D array with time comparison, cache misses
 
-**Structures **
+**Structures**
+
 [Structure.c](Structure.c) -- understand the concept of a structure with IO
 
 [StructureArray.c](StructureArray.c) -- typedef and passing of structure pointer to function
