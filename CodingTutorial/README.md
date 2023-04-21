@@ -20,6 +20,10 @@
 
 [StructurePointer.c](StructurePointer.c) -- pass pointers to structures around with functions with dynamical allocate memory
 
+[galaxyGC.c][galaxyGC.c] -- nested structure arrays
+
+**others things**
+
 [pi.c](./pi.c)  -- calculation of PI with OpenMP
 
 [utility.h](utility.h)  [utility.c](utility.c)  -- Useful functions
@@ -30,6 +34,6 @@ To be finished...
          gravity1D.c           my.c                             utility.c
           gravity1D-parallel.c  my.h                   read_mtree.c      
 C.c                          ParallelRecursion1D.c  stdint.c            valgrindtest.c
-foverflow.c        indexx.c                                 StructureArray.c
-FunctionPointer.c  IO.c                                Structure.c
-galaxyGC.c                       qsort.c                StructurePointer.c
+foverflow.c        indexx.c                                
+FunctionPointer.c  IO.c                              
+galaxyGC.c                       qsort.c             
