@@ -21,7 +21,7 @@
 
 [StructurePointer.c](StructurePointer.c) -- pass pointers to structures around with functions with dynamical allocate memory
 
-[galaxyGC.c][galaxyGC.c] -- nested structure arrays
+[galaxyGC.c](galaxyGC.c) -- nested structure arrays
 
 **others things**
 
