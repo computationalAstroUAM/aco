@@ -29,6 +29,11 @@
 
 [utility.h](utility.h)  [utility.c](utility.c)  -- Useful functions
 
+**data for test**
+
+[random_int_numbers.dat](./random_int_numbers.dat) -- random integers in binary with formate: first integer is the total number of all the random integer saved in following. 
+
+[indexx.c](./indexx.c) -- how to use indexx() function (inside utility.c) and qsort() from stdlib.h to sort an array. 
 
 
 To be finished...
