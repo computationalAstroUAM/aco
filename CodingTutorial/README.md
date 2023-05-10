@@ -35,11 +35,21 @@
 
 [indexx.c](./indexx.c) -- how to use indexx() function (inside utility.c) and qsort() from stdlib.h to sort an array. 
 
+**parallel OpenMP**
+
+[ParallelRecursion1D.c](ParallelRecursion1D.c)  --  to compare serial and parallel code for recursion
+
+[OpenMP_nested_loop.c](OpenMP_nested_loop.c)  -- to get to know more detail of the OpenMP loop parallel 
+
+**parallel MPI**
+
+[test_mpi.c](test_mpi.c)  -- very simple MPI program for Hello World.
+
 
 To be finished...
          gravity1D.c           my.c                             utility.c
           gravity1D-parallel.c  my.h                   read_mtree.c      
-C.c                          ParallelRecursion1D.c  stdint.c            valgrindtest.c
+C.c                            stdint.c            valgrindtest.c
 foverflow.c        indexx.c                                
 FunctionPointer.c  IO.c                              
 galaxyGC.c                       qsort.c             
