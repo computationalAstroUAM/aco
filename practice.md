@@ -6,7 +6,9 @@ permalink: /practice/
 
 [Practice Lecture](https://docs.google.com/presentation/d/1nVu2sRmfbcs9WKSk5Kn3wTh0Jf-YOs58Iiur6WiDpMo/edit?usp=sharing)
 
-[Practice Code](CodingTutorial/README.md)
+[Linux commands](../static_files/linux_info.pdf)
+
+[Practice Code](../CodingTutorial/README.md)
 
 Home exercises:
   1. [Madelbrot](../static_files/Practices/mandelbrot.pdf)
