@@ -8,7 +8,7 @@ permalink: /practice/
 
 [Linux commands](../static_files/linux_info.pdf)
 
-[Practice Code](../CodingTutorial/README.md)
+[Practice Code](../CodingTutorialC++)
 
 Home exercises:
   1. [Madelbrot](../static_files/Practices/mandelbrot.pdf)
