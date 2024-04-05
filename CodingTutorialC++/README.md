@@ -12,6 +12,10 @@ This file contains a program that demonstrates integer and floating point overfl
 
 This file contains a program that prints the name of the program and all the arguments passed to it.
 
+### [`openmp-example.cpp`](./openmp-example.cpp)
+
+This file contains a program that uses OpenMP to calculate the sum of numbers from 1 to 1e5. It sets the number of threads to the number of processors available, and each thread calculates a portion of the sum.
+
 ## Build Files
 
 ### [`Makefile`](./Makefile)

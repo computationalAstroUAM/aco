@@ -4,4 +4,5 @@ project(ACO_practice)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(ACO_practice overflow.cpp
-        MainArgs.cpp)
+        MainArgs.cpp
+        openmp-example.cpp)
