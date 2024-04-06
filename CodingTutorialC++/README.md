@@ -16,6 +16,16 @@ This file contains a program that prints the name of the program and all the arg
 
 This file contains a program that uses OpenMP to calculate the sum of numbers from 1 to 1e5. It sets the number of threads to the number of processors available, and each thread calculates a portion of the sum.
 
+### [`pi.cpp`](./pi.cpp)
+
+This file contains a program that calculates the value of pi using the Leibniz formula for π. The program uses OpenMP for parallel computation, allowing it to calculate pi to a high degree of precision in a shorter amount of time. The number of threads used for the computation can be specified as a command-line argument when running the program.
+To build and run `pi.cpp`, use the make command followed by the name of the file (without the .cpp extension), and then run the resulting executable with the number of threads as an argument:
+
+```bash
+make pi
+./pi 4 This will build `pi.cpp` and run the resulting `pi` executable with 4 threads.
+```
+
 ## Build Files
 
 ### [`Makefile`](./Makefile)
@@ -38,6 +48,8 @@ To build individual files, use the make command followed by the name of the file
 ```bash
 make overflow
 make MainArgs
+make openmp-example
+make pi
 ```
 
 To clean up the built files, use the make clean command:
