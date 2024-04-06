@@ -8,7 +8,7 @@ CXXFLAGS = -std=c++11 -Wall -fopenmp
 TARGET = ACO_practice
 
 # Source files
-SRCS = overflow.cpp MainArgs.cpp
+SRCS = overflow.cpp MainArgs.cpp openmp-example.cpp
 
 # Object files
 OBJS = $(SRCS:.cpp=.o)
@@ -16,7 +16,11 @@ OBJS = $(SRCS:.cpp=.o)
 # Executables
 EXECS = overflow MainArgs openmp-example
 
+OMP_NUM_THREADS=4
+export OMP_NUM_THREADS
+
 all: $(TARGET)
+	./openmp-example
 
 overflow: overflow.o
 	$(CXX) $(CXXFLAGS) -o overflow overflow.o
