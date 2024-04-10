@@ -21,6 +21,22 @@ This file contains a program that uses OpenMP to calculate the sum of numbers fr
 This file contains a program that calculates the value of pi using the Leibniz formula for π. The program uses OpenMP for parallel computation, allowing it to calculate pi to a high degree of precision in a shorter amount of time. The number of threads used for the computation can be specified as a command-line argument when running the program.
 To build and run `pi.cpp`, use the make command followed by the name of the file (without the .cpp extension), and then run the resulting executable with the number of threads as an argument:
 
+### [`pointer-dam.cpp`](./pointer-dam.cpp)
+
+This file contains a program that demonstrates the use of pointers and memory management in C++. It includes examples of pointer arithmetic, dynamic memory allocation, and memory leaks.
+
+### [`pointer-dam3D.cpp`](./pointer-dam3D.cpp)
+
+This file extends the concepts demonstrated in `pointer-dam.cpp` to three dimensions. It includes examples of working with 3D arrays and pointers, including dynamic memory allocation for 3D arrays.
+
+### [`IO.cpp`](./IO.cpp)
+
+This file contains a program that demonstrates how to write and read array data to and from a text file and a binary file in C++. It includes examples of using the `fstream` library for file I/O operations.
+
+### [`pointer-update-parameter.cpp`](./pointer-update-parameter.cpp)
+
+This file contains a program that demonstrates how to use pointers to change the value of a parameter inside a function. It includes examples of passing pointers to functions and updating the value they point to.
+
 ```bash
 make pi
 ./pi 4 This will build `pi.cpp` and run the resulting `pi` executable with 4 threads.
@@ -50,6 +66,10 @@ make overflow
 make MainArgs
 make openmp-example
 make pi
+make pointer-dam
+make pointer-dam3D
+make pointer-update-parameter
+make IO
 ```
 
 To clean up the built files, use the make clean command:
