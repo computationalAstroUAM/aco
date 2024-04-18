@@ -37,6 +37,14 @@ This file contains a program that demonstrates how to write and read array data 
 
 This file contains a program that demonstrates how to use pointers to change the value of a parameter inside a function. It includes examples of passing pointers to functions and updating the value they point to.
 
+### [`class.cpp`](./class.cpp)
+
+This file contains a program that demonstrates the use of classes and objects in C++. It includes examples of defining classes, creating objects, and accessing class members.
+
+### [`structure.cpp`](./structure.cpp)
+
+This file contains a program that demonstrates the use of structures in C++. It includes examples of defining structures, creating structure variables, and accessing structure members.
+
 ```bash
 make pi
 ./pi 4 This will build `pi.cpp` and run the resulting `pi` executable with 4 threads.
@@ -70,6 +78,8 @@ make pointer-dam
 make pointer-dam3D
 make pointer-update-parameter
 make IO
+make class
+make structure
 ```
 
 To clean up the built files, use the make clean command:

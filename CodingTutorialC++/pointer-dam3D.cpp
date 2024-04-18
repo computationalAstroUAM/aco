@@ -6,6 +6,8 @@
  *
  * When deallocating, we must deallocate in the reverse order of allocation. First, we deallocate each 1D array, then
  * each 2D array, and finally the 3D array itself.*/
+#include <iostream>
+
 //
 int main() {
     // Dimensions of the 3D array
@@ -23,7 +25,11 @@ int main() {
     }
 
     // Use the array
-    // ...
+    array[0][0][0]=1;
+    array[1][2][3]=2;
+    std::cout << ***array << std::endl; // Outputs: 1
+    std::cout  << "array[1][2][3] =" << *(*(*(array+1)+2)+3)<< std::endl; // Outputs: 2
+    std::cout  << "array[1][2][3] =" << ***(array+1*y*z+2*z+3)<< std::endl; // Outputs: 2
 
     // Deallocate memory
     for(int i = 0; i < x; ++i) {
