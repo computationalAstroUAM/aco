@@ -13,4 +13,7 @@ add_executable(ACO_practice overflow.cpp
         IO.cpp
         class.cpp
         structure.cpp
+        different_arrays.cpp
+        vector.cpp
+        Sort_index.cpp
 )

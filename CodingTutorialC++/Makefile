@@ -14,14 +14,16 @@ TARGET = ACO_practice
 
 # Source files: SRCS is a list of source files
 SRCS = overflow.cpp MainArgs.cpp openmp-example.cpp pi.cpp pointer-dam.cpp pointer-dam3D.cpp \
-		pointer-update-parameter.cpp IO.cpp class.cpp structure.cpp
+		pointer-update-parameter.cpp IO.cpp class.cpp structure.cpp Sort_index.cpp vector.cpp \
+		different_arrays.cpp
 
 # Object files
 # The $(SRCS:.cpp=.o) is a substitution reference which replaces the .cpp extension with .o in SRCS
 OBJS = $(SRCS:.cpp=.o)
 
 # Executables
-EXECS = overflow MainArgs openmp-example pi pointer-dam pointer-dam3D IO pointer-update-parameter class structure
+EXECS = overflow MainArgs openmp-example pi pointer-dam pointer-dam3D IO pointer-update-parameter \
+ 		class structure Sort_index vector different_arrays
 
 # Number of threads for OpenMP
 # OMP_NUM_THREADS is an environment variable that specifies the number of threads to use for OpenMP
@@ -66,6 +68,16 @@ class: class.o
 
 structure: structure.o
 	$(CXX) $(CXXFLAGS) -o structure structure.o
+
+Sort_index: Sort_index.o
+	$(CXX) $(CXXFLAGS) -o Sort_index Sort_index.o
+
+vector: vector.o
+	$(CXX) $(CXXFLAGS) -o vector vector.o
+
+different_arrays: different_arrays.o
+	$(CXX) $(CXXFLAGS) -o different_arrays different_arrays.o
+
 
 # Rule for building object files from source files
 # The $(CXX) $(CXXFLAGS) -c $< -o $@ command compiles the source file into an object file
