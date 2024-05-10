@@ -27,6 +27,7 @@ int main() {
     // test array out of scope
     test_array_out_of_scope();
     int* arr2 = new int[100000000];
+    int arr3[100000];
     test_array_out_of_scope(); // run twice to see if the memory location is the same
     delete[] arr2;
 

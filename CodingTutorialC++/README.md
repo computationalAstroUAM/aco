@@ -16,6 +16,27 @@ This file contains a program that prints the name of the program and all the arg
 
 This file contains a program that uses OpenMP to calculate the sum of numbers from 1 to 1e5. It sets the number of threads to the number of processors available, and each thread calculates a portion of the sum.
 
+### [`openmp-nested-for-loop.cpp`](./openmp-nested-for-loop.cpp)
+
+This file contains a program that demonstrates the use of nested for loops in OpenMP. It shows how to parallelize both outer and inner loops for efficient computation.
+
+### [`openmp-no-parallel.cpp`](./openmp-no-parallel.cpp)
+
+This file contains a program that demonstrates the cases that OpenMP parallelization can not be used. It shows how a program behaves when run on a single thread.
+
+### [`openmp-parallel-output.cpp`](./openmp-parallel-output.cpp)
+
+This file contains a program that demonstrates the use of OpenMP for parallel output. It shows how to write to different files in parallel using OpenMP.
+
+### [`openmp-sections.cpp`](./openmp-sections.cpp)
+
+This file contains a program that demonstrates the use of sections in OpenMP. It shows how to divide a program into sections that can be executed in parallel.
+
+### [`problemtic_program_for_gdb.cpp`](./problemtic_program_for_gdb.cpp)
+
+This file contains a program that is designed to be debugged using GDB. It includes intentional errors that can be investigated using the debugger.
+
+
 ### [`pi.cpp`](./pi.cpp)
 
 This file contains a program that calculates the value of pi using the Leibniz formula for π. The program uses OpenMP for parallel computation, allowing it to calculate pi to a high degree of precision in a shorter amount of time. The number of threads used for the computation can be specified as a command-line argument when running the program.
@@ -92,6 +113,14 @@ make pointer-update-parameter
 make IO
 make class
 make structure
+make different_arrays
+make vector
+make Sort_index
+make openmp-nested-for-loop
+make openmp-no-parallel
+make openmp-parallel-output
+make openmp-sections
+make problemtic_program_for_gdb
 ```
 
 To clean up the built files, use the make clean command:

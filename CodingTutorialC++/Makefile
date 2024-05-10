@@ -15,7 +15,8 @@ TARGET = ACO_practice
 # Source files: SRCS is a list of source files
 SRCS = overflow.cpp MainArgs.cpp openmp-example.cpp pi.cpp pointer-dam.cpp pointer-dam3D.cpp \
 		pointer-update-parameter.cpp IO.cpp class.cpp structure.cpp Sort_index.cpp vector.cpp \
-		different_arrays.cpp
+		different_arrays.cpp openmp-nested-for-loop.cpp openp-no-parallel.cpp openmp-parallle-output.cpp \
+		openmp-sections.cpp problemtic_program_for_gdb.cpp
 
 # Object files
 # The $(SRCS:.cpp=.o) is a substitution reference which replaces the .cpp extension with .o in SRCS
@@ -23,7 +24,8 @@ OBJS = $(SRCS:.cpp=.o)
 
 # Executables
 EXECS = overflow MainArgs openmp-example pi pointer-dam pointer-dam3D IO pointer-update-parameter \
- 		class structure Sort_index vector different_arrays
+ 		class structure Sort_index vector different_arrays openmp-nested-for-loop openmp-no-parallel \
+ 		openmp-parallle-output openmp-sections problemtic_program_for_gdb
 
 # Number of threads for OpenMP
 # OMP_NUM_THREADS is an environment variable that specifies the number of threads to use for OpenMP
@@ -77,6 +79,21 @@ vector: vector.o
 
 different_arrays: different_arrays.o
 	$(CXX) $(CXXFLAGS) -o different_arrays different_arrays.o
+
+openmp-nested-for-loop: openmp-nested-for-loop.o
+	$(CXX) $(CXXFLAGS) -o openmp-nested-for-loop openmp-nested-for-loop.o
+
+openmp-no-parallel: openmp-no-parallel.o
+	$(CXX) $(CXXFLAGS) -o openmp-no-parallel openmp-no-parallel.o
+
+openmp-parallle-output: openmp-parallle-output.o
+	$(CXX) $(CXXFLAGS) -o openmp-parallle-output openmp-parallle-output.o
+
+openmp-sections: openmp-sections.o
+	$(CXX) $(CXXFLAGS) -o openmp-sections openmp-sections.o
+
+problemtic_program_for_gdb: problemtic_program_for_gdb.o
+	$(CXX) $(CXXFLAGS) -o problemtic_program_for_gdb problemtic_program_for_gdb.o
 
 
 # Rule for building object files from source files

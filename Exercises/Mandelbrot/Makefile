@@ -5,7 +5,7 @@ CXX = g++
 CXXFLAGS = -DHIGH_TIME_PRECISION
 
 # Compiler flags
-CXXFLAGS += -Wall -Wextra -O2 -fopenmp
+CXXFLAGS += -pg -ftest-coverage -lgcov -Wall -Wextra -O2 -fopenmp
 
 
 

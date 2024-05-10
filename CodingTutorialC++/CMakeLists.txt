@@ -16,4 +16,9 @@ add_executable(ACO_practice overflow.cpp
         different_arrays.cpp
         vector.cpp
         Sort_index.cpp
+        openmp-no-parallel.cpp
+        openmp-sections.cpp
+        openmp-nested-for-loop.cpp
+        openmp-parallel-output.cpp
+        problemtic_program_for_gdb.cpp
 )
