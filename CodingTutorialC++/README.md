@@ -78,6 +78,12 @@ This file contains a program that demonstrates the use of std::vector in C++. It
 
 This file contains a program that demonstrates how to sort an array and get the index of the sorted array in C++. It includes examples of using std::sort and std::vector.
 
+### ['mpi_example.cpp'](./mpi_example.cpp)
+
+The mpi_example.cpp file is a C++ program that demonstrates the use of the Message Passing Interface (MPI) for parallel computing. The program calculates the sum of an array of numbers, distributing the task across multiple processes.
+
+To compile and run this program, an MPI implementation (like Open MPI or MPICH) needs to be installed on the system. The compilation command might look like `mpic++ mpi_example.cpp -o mpi_example`, and the run command might look like `mpirun -np 4 ./mpi_example`, where `-np 4` specifies to run the program with 4 processes.
+
 ```bash
 make pi
 ./pi 4 This will build `pi.cpp` and run the resulting `pi` executable with 4 threads.
