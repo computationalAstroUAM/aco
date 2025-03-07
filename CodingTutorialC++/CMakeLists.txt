@@ -21,4 +21,5 @@ add_executable(ACO_practice overflow.cpp
         openmp-nested-for-loop.cpp
         openmp-parallel-output.cpp
         problemtic_program_for_gdb.cpp
+        mpi_example.cpp
 )

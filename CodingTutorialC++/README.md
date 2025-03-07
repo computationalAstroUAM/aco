@@ -78,7 +78,7 @@ This file contains a program that demonstrates the use of std::vector in C++. It
 
 This file contains a program that demonstrates how to sort an array and get the index of the sorted array in C++. It includes examples of using std::sort and std::vector.
 
-### ['mpi_example.cpp'](./mpi_example.cpp)
+### [`mpi_example.cpp`](./mpi_example.cpp)
 
 The mpi_example.cpp file is a C++ program that demonstrates the use of the Message Passing Interface (MPI) for parallel computing. The program calculates the sum of an array of numbers, distributing the task across multiple processes.
 
