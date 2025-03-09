@@ -12,3 +12,4 @@ cmake-build-debug
 *.data
 *.dat
 *.gcno
+Gemfile.lock
