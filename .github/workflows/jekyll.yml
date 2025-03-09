@@ -29,10 +29,6 @@ concurrency:
 jobs:
   # Build job
   build:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-      
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -49,12 +45,14 @@ jobs:
           bundle install
       
       - name: Build site
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: production
+        run: bundle exec jekyll build
+
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
+        with:
+          name: site-files  # Name for your artifact
+          path: _site/  
          
       - name: Deploy
         id: deployment
