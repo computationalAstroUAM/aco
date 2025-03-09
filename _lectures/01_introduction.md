@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2024-03-21T15:00:00
+date: 2025-03-21T15:00:00
 title: Information about the course
 tldr: "This contains some basic information of the course. Lectures are on every Thursdays."
 # thumbnail: /static_files/presentations/lec.jpg

@@ -1,6 +1,6 @@
 ---
 type: exam
-date: 2024-05-23T10:00
+date: 2025-05-29T10:00
 description: 'Final presentation'
 hide_from_announcments: true
 ---

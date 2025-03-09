@@ -4,4 +4,7 @@ _site
 CodingTutorialC++/cmake-build-debug
 CodingTutorialC++/misc.xml
 ruby
+.idea
+a.out
 .bundle
+cmake-build-debug
