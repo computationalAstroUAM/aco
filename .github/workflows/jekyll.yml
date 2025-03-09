@@ -29,6 +29,9 @@ concurrency:
 jobs:
   # Build job
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -48,9 +51,9 @@ jobs:
         run: bundle exec jekyll build
       
       - name: Deploy
+        id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          folder: _site  # Jekyll's default output directory
+
           
   #     - uses: actions/checkout@v4
   #     - name: Setup Ruby
