@@ -8,3 +8,7 @@ ruby
 a.out
 .bundle
 cmake-build-debug
+*.o
+*.data
+*.dat
+*.gcno
