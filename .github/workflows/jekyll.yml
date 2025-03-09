@@ -51,7 +51,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: site-files  # Name for your artifact
+          name: github-pages  # Name for your artifact
           path: _site/  
          
       - name: Deploy
