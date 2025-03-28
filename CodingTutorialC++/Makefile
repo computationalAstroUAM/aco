@@ -35,7 +35,7 @@ export OMP_NUM_THREADS
 # Default target
 # all is a standard target that will be built if no target is specified
 # It depends on the TARGET
-all: $(TARGET)
+all: $(EXECS)
 
 # Individual targets for each source file
 # Each target has a rule that specifies how to build it
@@ -95,6 +95,8 @@ openmp-sections: openmp-sections.o
 problemtic_program_for_gdb: problemtic_program_for_gdb.o
 	$(CXX) $(CXXFLAGS) -o problemtic_program_for_gdb problemtic_program_for_gdb.o
 
+segfault_examples: segfault_examples.o
+	$(CXX) $(CXXFLAGS) -o segfault_examples segfault_examples.o
 
 # Rule for building object files from source files
 # The $(CXX) $(CXXFLAGS) -c $< -o $@ command compiles the source file into an object file

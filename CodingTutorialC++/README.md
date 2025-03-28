@@ -89,6 +89,10 @@ make pi
 ./pi 4 This will build `pi.cpp` and run the resulting `pi` executable with 4 threads.
 ```
 
+### [`segfault_examples.cpp`](./segfault_examples.cpp)
+
+This file contains a program that demonstrates the use of segfault examples in C++. It includes examples of segfaults and how to handle them.
+
 ## Build Files
 
 ### [`Makefile`](./Makefile)
