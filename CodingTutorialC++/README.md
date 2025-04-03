@@ -84,6 +84,10 @@ The mpi_example.cpp file is a C++ program that demonstrates the use of the Messa
 
 To compile and run this program, an MPI implementation (like Open MPI or MPICH) needs to be installed on the system. The compilation command might look like `mpic++ mpi_example.cpp -o mpi_example`, and the run command might look like `mpirun -np 4 ./mpi_example`, where `-np 4` specifies to run the program with 4 processes.
 
+### [`advanced_functions.cpp`](./advanced_functions.cpp)
+
+This file contains a program that demonstrates the use of advanced functions in C++. It includes examples of function templates, lambda functions, function objects, function pointers, function overloading, default arguments.
+
 ```bash
 make pi
 ./pi 4 This will build `pi.cpp` and run the resulting `pi` executable with 4 threads.
@@ -131,6 +135,7 @@ make openmp-no-parallel
 make openmp-parallel-output
 make openmp-sections
 make problemtic_program_for_gdb
+make advanced_functions
 ```
 
 To clean up the built files, use the make clean command:

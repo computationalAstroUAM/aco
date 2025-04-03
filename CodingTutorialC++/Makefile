@@ -16,7 +16,7 @@ TARGET = ACO_practice
 SRCS = overflow.cpp MainArgs.cpp openmp-example.cpp pi.cpp pointer-dam.cpp pointer-dam3D.cpp \
 		pointer-update-parameter.cpp IO.cpp class.cpp structure.cpp Sort_index.cpp vector.cpp \
 		different_arrays.cpp openmp-nested-for-loop.cpp openp-no-parallel.cpp openmp-parallle-output.cpp \
-		openmp-sections.cpp problemtic_program_for_gdb.cpp
+		openmp-sections.cpp problemtic_program_for_gdb.cpp advanced_functions.cpp
 
 # Object files
 # The $(SRCS:.cpp=.o) is a substitution reference which replaces the .cpp extension with .o in SRCS
@@ -25,7 +25,7 @@ OBJS = $(SRCS:.cpp=.o)
 # Executables
 EXECS = overflow MainArgs openmp-example pi pointer-dam pointer-dam3D IO pointer-update-parameter \
  		class structure Sort_index vector different_arrays openmp-nested-for-loop openmp-no-parallel \
- 		openmp-parallle-output openmp-sections problemtic_program_for_gdb
+ 		openmp-parallle-output openmp-sections problemtic_program_for_gdb advanced_functions
 
 # Number of threads for OpenMP
 # OMP_NUM_THREADS is an environment variable that specifies the number of threads to use for OpenMP
@@ -97,6 +97,9 @@ problemtic_program_for_gdb: problemtic_program_for_gdb.o
 
 segfault_examples: segfault_examples.o
 	$(CXX) $(CXXFLAGS) -o segfault_examples segfault_examples.o
+
+advanced_functions: advanced_functions.o
+	$(CXX) $(CXXFLAGS) -o advanced_functions advanced_functions.o
 
 # Rule for building object files from source files
 # The $(CXX) $(CXXFLAGS) -c $< -o $@ command compiles the source file into an object file
