@@ -7,8 +7,9 @@
 using namespace std;
 
 int main(int argc, char **argv) {
+#ifdef nooutput
     cout << "Hello, World!" << endl;
-
+#endif
     //Integer Overflow/Underflow problem
     int max_int = INT_MAX;
     cout << "Max int: " << max_int << endl;

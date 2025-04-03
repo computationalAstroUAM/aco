@@ -1,12 +1,16 @@
 # Compiler
 CXX = g++
 
+DEFINEFLAGS     =       -Dnooutput
+# see the #ifdef nooutput in overflow.cpp
+
+
 # Compiler flags
 # CXXFLAGS is a standard variable name for flags for the C++ compiler
 # -std=c++11 specifies to use the C++11 standard
 # -Wall enables all compiler's warning messages
 # -fopenmp enables the OpenMP directive for parallel programming
-CXXFLAGS = -std=c++11 -Wall -fopenmp
+CXXFLAGS = -std=c++11 -Wall -fopenmp $(DEFINEFLAGS)
 
 # Target executable
 # TARGET is the name of the final executable file
