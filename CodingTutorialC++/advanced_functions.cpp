@@ -75,6 +75,8 @@ int main() {
     // [&var] - captures specific variable by reference
 
     // 3. Function Object
+    // Objects that act like functions
+    // Can maintain state
     Adder adder;
     std::cout << "Function Object: " << adder(6, 7) << std::endl;
     //what if you replace the operator() with other function?
@@ -84,10 +86,14 @@ int main() {
     process(10, printNumber);
 
     // 5. Function Overloading
+    // Multiple functions with the same name but different parameters
+    // Compiler selects the correct function based on arguments
     configure(800);
     configure("Custom Configuration");
 
     // 6. Default Arguments
+    // Allows you to specify default values for function parameters
+    // Can be used to reduce code duplication
     setup(800);
     setup(800, 600);
     setup(800, 600, true);
