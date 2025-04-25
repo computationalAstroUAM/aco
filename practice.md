@@ -15,6 +15,8 @@ GDB Exercises:
   2. [Int Division](../Exercises/GDB/int_division.cpp)
   3. [Segmentation Fault](../Exercises/GDB/seg.cpp)
 
+[Parameter reader](../Exercises/parameter_reader/)
+
 Home exercises:
   1. [Madelbrot](../static_files/Practices/mandelbrot.pdf)
   2. [Kepler](../static_files/Practices/kepler.pdf)
