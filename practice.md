@@ -10,6 +10,11 @@ permalink: /practice/
 
 [Practice Code](../CodingTutorialC++)
 
+GDB Exercises:
+  1. [Logic](../Exercises/GDB/logic.cpp)
+  2. [Int Division](../Exercises/GDB/int_division.cpp)
+  3. [Segmentation Fault](../Exercises/GDB/seg.cpp)
+
 Home exercises:
   1. [Madelbrot](../static_files/Practices/mandelbrot.pdf)
   2. [Kepler](../static_files/Practices/kepler.pdf)
