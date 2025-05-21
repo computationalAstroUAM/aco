@@ -15,6 +15,15 @@ GDB Exercises:
   2. [Int Division](../Exercises/GDB/int_division.cpp)
   3. [Segmentation Fault](../Exercises/GDB/seg.cpp)
 
+
+MPI Exercises:
+  1. [Hello World](../CodingTutorialC++/MPI/main1-HelloWorld.cpp)
+  2. [Send and Receive](../CodingTutorialC++/MPI/main2-SendReceive.cpp)
+  3. [Broadcast](../CodingTutorialC++/MPI/main3-Broadcast.cpp)
+  4. [Scatter and Gather](../CodingTutorialC++/MPI/main4-ScatterGather.cpp)
+  5. [Sum Reduction](../CodingTutorialC++/MPI/main5-SumReduction.cpp)
+  6. [Send and Receive 2](../CodingTutorialC++/MPI/main6-SendReceive2.cpp)
+
 Parameter reading:
 [main.c++](../Exercises/parameter_reader/main.c++), [parameters.h](../Exercises/parameter_reader/parameters.h), [parameters.c++](../Exercises/parameter_reader/parameters.c++), [param.ini](../Exercises/parameter_reader/param.ini), [Makefile](../Exercises/parameter_reader/Makefile)
 
